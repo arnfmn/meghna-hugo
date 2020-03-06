@@ -2269,4 +2269,22 @@ figcaption {
   display: block;
 }
 
+/*=================================================================
+	Single Blog Images
+==================================================================*/
+
+img[src*="#full"] {
+
+   width:100%;
+
+}
+
+img[src*="#medium"] {
+
+   width:80%;
+   display: block;
+   margin: 0 auto;
+
+}
+
 /*# sourceMappingURL=maps/style.css.map */
